@@ -2,6 +2,20 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netstandard1.3;net40</TargetFrameworks>
+    <CodeAnalysisRuleSet>../../CustomExtendedCorrectnessRules.ruleset</CodeAnalysisRuleSet>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AssemblyName>Enable.Common.DataIntegrityException</AssemblyName>
+    <Version></Version>
+    <Authors>Enable</Authors>
+    <Description>A .NET exception type representing an attempt that has been made to compromise the integrity of application data.</Description>
+    <Copyright>Copyright © Enable</Copyright>
+    <PackageProjectUrl>https://github.com/EnableSoftware/Enable.Common.DataIntegrityException</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/EnableSoftware.png</PackageIconUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/EnableSoftware/Enable.Common.DataIntegrityException/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/EnableSoftware/Enable.Common.DataIntegrityException</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
