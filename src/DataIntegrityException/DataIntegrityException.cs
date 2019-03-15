@@ -24,9 +24,11 @@ namespace Enable.Common
         {
         }
 
+#if NET40 || NETSTANDARD2_0
         protected DataIntegrityException(SerializationInfo serializationInfo, StreamingContext streamingContext)
             : base(serializationInfo, streamingContext)
         {
         }
+#endif
     }
 }
