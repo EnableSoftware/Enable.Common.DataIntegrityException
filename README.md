@@ -11,3 +11,4 @@ throw new DataIntegrityException();
 throw new DataIntegrityException("exception message");
 throw new DataIntegrityException("exception message", wrappedException);
 ```
+
